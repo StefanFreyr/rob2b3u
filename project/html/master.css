@@ -2,13 +2,13 @@ body{
   position: relative;
   margin: auto;
   background: url(bg-body.gif) no-repeat top center #e4e4da;
-}  
+}
 button{
   height: 100%;
   width: 100%;
 }
 
-.container {
+.gridsystem {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: 100px;
